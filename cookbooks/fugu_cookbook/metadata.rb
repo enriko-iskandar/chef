@@ -8,3 +8,4 @@ version          '0.1.0'
 
 depends 'build-essential'
 depends 'ntp'
+depends 'apache2', '>= 3.1.0'
