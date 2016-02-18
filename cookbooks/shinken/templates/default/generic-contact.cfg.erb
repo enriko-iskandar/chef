@@ -1,0 +1,8 @@
+define contact{
+  use generic-contact
+  contact_name <%= @contact['id'] %>
+  email <%= @contact['shinken']['email'] %>
+  pager <%= @contact['shinken']['phone'] %>
+  password <%= @password %>
+  is_admin <%= @contact['shinken']['is_admin'] %>
+}
